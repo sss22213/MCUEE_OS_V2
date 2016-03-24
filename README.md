@@ -41,7 +41,7 @@ STM32F407 test not ready!
 #5 diff(V1 and V2)
 1.using new structure in Task Scheduler
 
-2.TASK return type from int to u_int_8
+2.TASK return data type from int to u_int_8
 
 3.using symbol table
 
