@@ -11,7 +11,7 @@ Basic Task Scheduler and Time-Sharing
 Basic TASK value deliver 
 
 #1.Test Environment
-Linux kenerel 4.4
+Linux kernel 4.4
 
 GNU GCC 4.9
 
