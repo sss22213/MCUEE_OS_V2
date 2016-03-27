@@ -79,7 +79,7 @@ void TASK_Switch()
 void TASK_Excute()
 {
 	
-	for(u_int_8 i=1;i<TASK_Number;i++)
+	for(u_int_8 i=1;thread[i].TASK1!=TASK_NULL;i++)
 	{
 		//setting run in process
 		schedule[thread[i].prior].prior=run;

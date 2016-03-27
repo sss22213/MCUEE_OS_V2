@@ -13,7 +13,9 @@ Basic TASK value deliver
 #1.Test Environment
 Linux kernel 4.4
 
-GNU GCC 4.9
+GNU GCC 5.3
+
+C99
 
 #2.How to use test program?
 1.make main
