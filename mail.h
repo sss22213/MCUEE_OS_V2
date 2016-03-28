@@ -8,7 +8,6 @@ typedef struct _mail mail;
 //function
 void Put_mail(u_int_8 p_prior,float value);
 float Get_mail(u_int_8 p_prior);
-mail* GetAll_mail(void);
 void clearAll_mail(void);
 void clear_mail(u_int_8);
 
