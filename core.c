@@ -91,6 +91,16 @@ void TASK_Excute()
 	TASK_Switch();
 }
 
+void Stop_schedule(u_int_8 prior)
+{
+	schedule[prior].status=_sleep;
+}
+
+void Restore_schedule(u_int_8 prior)
+{
+	schedule[prior].prior=wait;
+}
+
 u_int_8 TASK_NULL()
 {
 	if(1==1);

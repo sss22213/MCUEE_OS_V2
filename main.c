@@ -34,6 +34,7 @@ int main()
 	{
 		timer1++;
 		TASK_Excute();
+		printf("%d\n",timer1);
 		sleep(1);
 	}
 	return 0;
